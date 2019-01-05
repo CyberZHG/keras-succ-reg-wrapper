@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='keras-succ-reg-wrapper',
-    version='0.1.0',
+    version='0.3.0',
     packages=find_packages(),
-    url='https://github.com/CyberZHG/keras-bert',
+    url='https://github.com/CyberZHG/keras-succ-reg-wrapper',
     license='MIT',
     author='CyberZHG',
     author_email='CyberZHG@gmail.com',
