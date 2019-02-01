@@ -13,7 +13,7 @@ class SuccReg(keras.layers.Wrapper):
 
     def get_config(self):
         config = {
-            'regularizer': self.regularizer,
+            'regularizer': keras.regularizers.serialize(self.regularizer),
         }
         base_config = super(SuccReg, self).get_config()
         return dict(list(base_config.items()) + list(config.items()))
